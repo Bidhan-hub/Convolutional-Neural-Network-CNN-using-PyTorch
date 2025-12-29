@@ -1,3 +1,3 @@
 # Convolutional-Neural-Network-CNN-using-PyTorch
-CNN with PyTorch on MNIST
+CNN with PyTorch on MNIST.
 This project builds a Convolutional Neural Network (CNN) using PyTorch to classify handwritten digits from the MNIST dataset. The images are converted into 4-dimensional tensors so they can be processed by convolution layers. Two convolution layers extract visual features, followed by pooling layers that reduce image size while keeping important information. The extracted features are flattened and passed through fully connected layers to classify digits from 0 to 9. The model is trained using cross-entropy loss and the Adam optimizer, and performance is evaluated on unseen test data without backpropagation. Finally, loss and accuracy are visualized, and the model predicts a digit from a single image.
